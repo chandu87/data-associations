@@ -50,7 +50,7 @@ User.findOne({name: "Mahesh Babu"}, function(err, user){
         console.log(err);
     }else{
         user.posts.push({
-            title : "Athadu",
+            title : "Sinikudu",
             content: "Family thriller 200Days movie"
         });
         user.save(function(err, userData){
