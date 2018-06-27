@@ -1,0 +1,23 @@
+{
+  "name": "data-associations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "embed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandu87/data-associations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandu87/data-associations/issues"
+  },
+  "homepage": "https://github.com/chandu87/data-associations#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  }
+}
