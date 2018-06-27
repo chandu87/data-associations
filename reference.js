@@ -39,3 +39,12 @@ const User = mongoose.model("User", userSchema);
 //         });    
 //     }
 // });
+
+User.findOne({name: "Vijay"}).populate("posts").exec(function(err, user){
+    if(err){
+        console.log(err);
+    }
+    else{
+        console.log(user);
+    }
+});
